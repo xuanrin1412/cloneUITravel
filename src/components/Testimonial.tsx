@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Star from "../assets/img/star2.svg";
 import LayerViolet from "../assets/img/Layer-violet.svg";
