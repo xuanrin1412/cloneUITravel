@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Custom-1";
+    src: url("./font/circular-std-medium-500.ttf");
+}
+
+@layer base {
+    html {
+        font-family: "Custom-1", system-ui, sans-serif;
+    }
+}
+
+
+.shadow-box {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.196);
+}
+
+.shadow-box-2 {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.082);
+}
+
+.shadow-box-3 {
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.064);
+}
